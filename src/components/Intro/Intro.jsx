@@ -9,6 +9,7 @@ import FloatinDiv from "../FloatingDiv/FloatingDiv";
 import Github from "../../img/github.png";
 import LinkedIn from "../../img/linkedin.png";
 import Instagram from "../../img/instagram.png";
+import Imogi from "../../img/glassesimoji.png";
 const Intro = () => {
 
   return (
@@ -39,15 +40,18 @@ const Intro = () => {
         <img src={Vector1} alt="" />
         <img src={Vector2} alt="" />
         <img src={boy} alt="" />
+        <img src={Imogi} alt="" />
         {/* animation */}
-     
+        <div style={{ top: '-4%', left: '68%' }}>
           <FloatinDiv img={crown} text1="Web" text2="Developer" />
+        </div>
 
         {/* animation */}
-       
-          {/* floatinDiv mein change hy dark mode ka */}
-          <FloatinDiv img={thumbup} text1="Best Design" text2="Award" />
 
+        {/* floatinDiv mein change hy dark mode ka */}
+        <div style={{ top: '66%', left: '1%' }}>
+          <FloatinDiv img={thumbup} text1="Best Design" text2="Award" />
+        </div>
         <div className="blur" style={{ background: "rgb(238 210 255)" }}></div>
         <div
           className="blur"
