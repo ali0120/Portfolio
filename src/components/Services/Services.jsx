@@ -15,11 +15,11 @@ const Services = () => {
         {/* dark mode */}
         <span >My Awesome</span>
         <span>services</span>
-        <spane>
+        <span>
           Lorem ispum is simpley dummy text of printing of printing Lorem
           <br />
           ispum is simpley dummy text of printing
-        </spane>
+        </span>
         <a href={Resume} download>
           <button className="button s-button">Download CV</button>
         </a>
@@ -27,7 +27,7 @@ const Services = () => {
       </div>
       {/* right */}
       <div className="cards">
-        <div style={{ left: '14rem' }}>
+        <div style={{ left: '16rem' }}>
           <Card
             emoji={HeartEmoji}
             heading={"Design"}
@@ -41,7 +41,7 @@ const Services = () => {
             detail={"Html, Css, JavaScript, React, Nodejs, Express"}
           />
         </div>
-        <div style={{ left: '12rem', top: '19rem' }}>
+        <div style={{ left: '14rem', top: '19rem' }}>
           <Card
             emoji={Humble}
             heading={"UI/UX"}
